@@ -5,6 +5,9 @@
 
     <data>
 
+        <variable
+            name="planetObject"
+            type="com.example.marsretrofit.model.MarsModel" />
 
     </data>
 
@@ -23,9 +26,10 @@
             android:background="@drawable/card_backround">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/imageViewPlanet"
+                android:id="@+id/imageViewMars"
                 android:layout_width="150dp"
                 android:layout_height="160dp"
+                android:downloadImageUrl="@{planetObject.img_src}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"

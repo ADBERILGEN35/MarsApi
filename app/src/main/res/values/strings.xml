@@ -2,8 +2,10 @@
     <string name="app_name">RetrofitProject</string>
     <string name="let_s_explo"><b>Let\'s Explore the <font color="#F9AD1A">\nSolar System</font>\nwith <font color="#F9AD1A">Explorer</font></b></string>
     <string name="letsGo"><b>Lets Go</b></string>
-    <string name="earth_third">Earth, third planet from the Sun and the fifth largest planet in the solar system in terms of size and mass. Its single most outstanding feature is that its near-surface environments are the only places in the universe known to harbour life. It is... More</string>
+    <string name="earth_third">Earth, third planet from the Sun and the fifth largest planet in the solar system in terms of size and mass. Its single most outstanding feature is that its near-surface environments are the only places in the universe known to harbour life. It is...<font color="#F35959">More</font></string>
     <string name="explorer">Explorer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
