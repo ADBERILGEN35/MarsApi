@@ -1,6 +1,6 @@
 package com.example.marsretrofit.service
 
-import MarsModel
+import com.example.marsretrofit.model.MarsModel
 import retrofit2.Call
 import retrofit2.http.GET
 
