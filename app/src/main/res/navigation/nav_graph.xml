@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startedFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.marsretrofit.view.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/detailFragmentRoute"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.marsretrofit.view.MarsDetailFragment"
+        android:label="DetailFragment">
+        <argument
+            android:name="planetModel"
+            app:argType="com.example.marsretrofit.model.MarsModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/startedFragment"
+        android:name="com.example.marsretrofit.view.StartedFragment"
+        android:label="StartedFragment">
+        <action
+            android:id="@+id/homeFragmentRoute"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
