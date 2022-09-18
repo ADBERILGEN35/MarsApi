@@ -12,7 +12,7 @@ fun ImageView.loadUrl(image: String) {
     }
 }
 
-@BindingAdapter("android:downloadImageUrl")
+@BindingAdapter("android:downloadImage")
 fun downloadImage(view: ImageView, image: String) {
     view.loadUrl(image)
 }

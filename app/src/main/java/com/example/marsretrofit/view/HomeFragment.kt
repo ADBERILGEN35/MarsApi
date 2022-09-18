@@ -49,6 +49,10 @@ class HomeFragment : Fragment() {
         list()
     }
 
+    /**
+     * List
+     * MarsModel data listed {}
+     */
     private fun list() {
         MarsApi.retrofitService.getProperties()
             .enqueue(object : Callback<List<MarsModel>> {
@@ -63,13 +67,10 @@ class HomeFragment : Fragment() {
                         val gridLayoutManager = GridLayoutManager(context, 2)
                         binding.apply {
                             recyclerView.layoutManager = gridLayoutManager
-
                             setVariable(BR.planetAdapter, planetAdapter)
-
                         }
                     }
                 }
-
                 override fun onFailure(call: Call<List<MarsModel>>, t: Throwable) {
                     println(t.message)
                 }

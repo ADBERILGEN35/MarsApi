@@ -38,6 +38,11 @@ class MarsDetailFragment : Fragment() {
 
     }
 
+
+    /**
+     * Data planet
+     * Object list{}
+     */
     private fun dataPlanet() {
         navArgs?.let { list ->
             binding.planetObject = list.planetModel
