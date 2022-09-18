@@ -18,6 +18,9 @@
         <argument
             android:name="planetModel"
             app:argType="com.example.marsretrofit.model.MarsModel" />
+        <action
+            android:id="@+id/routeDetailToHome"
+            app:destination="@id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/startedFragment"

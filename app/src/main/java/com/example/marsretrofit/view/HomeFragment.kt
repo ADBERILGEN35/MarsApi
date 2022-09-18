@@ -42,8 +42,6 @@ class HomeFragment : Fragment() {
         binding.apply {
             recyclerView.setOnClickListener {
                 findNavController().apply {
-
-
                     findNavController().navigate(R.id.detailFragmentRoute)
                 }
             }
