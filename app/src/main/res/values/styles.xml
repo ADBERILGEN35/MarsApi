@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="imageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">11dp</item>
+    </style>
+
+    <style name="let_s_explo">
+        <item name="android:textSize">
+            40sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+
+    <style name="earth_third">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="explorer">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#F9AD1A</item>
+    </style>
+
+    <style name="buttonLetsGo">
+        <item name="android:layout_width">345dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginBottom">56dp</item>
+        <item name="android:background">@drawable/rectangle_1</item>
+        <item name="android:elevation">400dp</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item>
+        <item name="icon">@drawable/rocket</item>
+        <item name="iconGravity">textEnd</item>
+        <item name="iconTint">@null</item>
+    </style>
+
+
+</resources>

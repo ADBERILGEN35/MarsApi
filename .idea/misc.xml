@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/TULPAR/Desktop/KodluyoruzAndroid/MarsRetrofit/app/src/main/res/drawable/backround.xml" value="0.567" />
         <entry key="..\:/Users/TULPAR/Desktop/KodluyoruzAndroid/MarsRetrofit/app/src/main/res/drawable/card_backround.xml" value="0.567" />
+        <entry key="..\:/Users/TULPAR/Desktop/KodluyoruzAndroid/MarsRetrofit/app/src/main/res/font/inter_extrabold.xml" value="0.6046875" />
         <entry key="..\:/Users/TULPAR/Desktop/KodluyoruzAndroid/MarsRetrofit/app/src/main/res/layout/card_desing.xml" value="0.5734375" />
+        <entry key="..\:/Users/TULPAR/Desktop/KodluyoruzAndroid/MarsRetrofit/app/src/main/res/layout/fragment_started.xml" value="0.5744791666666667" />
       </map>
     </option>
   </component>
