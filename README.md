@@ -1,5 +1,5 @@
 
-# Design Work
+# MARS API
 
 [Figma'da](https://www.figma.com/file/u9CZAMSE8jwPmIhNN3OiFK/Space-Explorer-(Community)?node-id=0%3A1) verilen tasarım  projeye uygulanmıştır.
 Veriler [API](https://mars.udacity.com/) üzerinden  [Retrofit](https://square.github.io/retrofit/) yardımı ile alınmıştır. Anasayfada listelemede **Recyclerview** kullanılmıştır. API'den gelen görsel verileri [Glide](https://github.com/bumptech/glide) ile projeye dahil edilmiştir.
